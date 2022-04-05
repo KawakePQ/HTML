@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Pedro Quintana</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="images/icon.ico" id="images/icon.ico">
+    </head>
+    <body>
+        <header>
+            <h2>Titulo Principal</h2>
+        </header>
+        <nav>
+            <ul>
+                <li>Principal</li>
+                <li><a target="_blank" rel="noopener noreferrer" href="../Primer HTML/index.html">Secundaria</a></li>
+                <li>Redes:
+                    <ul>
+                        <li><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com" title="Pagina de Facebook">Facebook</a></li>
+                        <li><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com" title="Canal de Youtube">Youtube</a></li>
+                    </ul>
+                </li>
+                <li>Contacto</li>
+            </ul>
+        <form>  
+            <label for="Nombre">Nombre:</label>
+            <input type="text" placeholder="Nombre" id="Nombre" name="Nombre">
+            <label for="Apellido">Apellido:</label>
+            <input type="text" placeholder="Apellido" id="Apellido" name="Apellido">
+            <label for="Hombre">Hombre:</label>
+            <input type="checkbox" placeholder="Hombre" id="Hombre" name="Hombre">
+            <label for="Mujer">Mujer:</label>
+            <input type="checkbox" placeholder="Mujer" id="Mujer" name="Mujer">
+        </form>
+        </nav>
+                <section id="section_1" >
+                    <article id="article_1">
+                        <h3>Primer Subtitulo</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quasi maxime libero necessitatibus soluta eum iste et odio aspernatur, quidem assumenda! Incidunt sequi optio officiis aliquam porro iusto, quia eaque quos ducimus dignissimos aut ipsum, architecto et sed cupiditate fugit repudiandae nobis illo dolorum quisquam blanditiis doloribus ratione, quae harum!</p>
+                        <figure>
+                            <img src="images/icon.ico" alt="My test image" height="150">
+                            <figcaption>
+                                Esto es una gota de agua
+                            </figcaption>
+                            </figure>
+                            <footer>
+                                <time datetime="05-04-2022" ><em><strong>05/04/2022</strong></em></time>
+                            </footer>
+                    </article>
+                    <article id="article_2">
+                        <h3>Segundo Subtitulo</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure eligendi aliquam nisi aspernatur, quia placeat, neque fugit rerum harum modi distinctio, eius ex quos est molestiae consectetur. Rerum, fuga. Autem distinctio unde incidunt porro voluptatem sequi explicabo odit omnis dolores quaerat consequuntur facilis esse laborum dicta, aliquid repellat, iure rem?</p>
+                        <figure>
+                            <img src="images/icon.ico" alt="My test image" height="150">
+                            <figcaption>
+                                Esto es una gota de agua
+                            </figcaption>
+                        </figure>
+                        <footer>
+                            <time datetime="05-04-2022" ><em><strong>05/04/2022</strong></em></time>
+                        </footer>
+                    </article>
+                </section>
+                <footer>
+                    Desing by: Pedro Armando Quintana Barrios
+                </footer>
+    </body>
+</html>
